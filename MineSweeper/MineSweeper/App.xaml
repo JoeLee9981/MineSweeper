@@ -1,0 +1,17 @@
+﻿<Application x:Class="MineSweeper.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+
+    <Application.Resources>
+        <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+            <ImageSource x:Key="tile">Images/tile.png</ImageSource>
+            <ImageSource x:Key="viewedTile">Images/viewedTile.png</ImageSource>
+            <ImageSource x:Key="mine">Images/mine.png</ImageSource>
+            <ImageSource x:Key="blownMine">Images/blownMine.png</ImageSource>
+            <ImageSource x:Key="flag">Images/flag.png</ImageSource>
+            <ImageSource x:Key="questionmark">Images/questionmark.png</ImageSource>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
